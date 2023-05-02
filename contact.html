@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+</head>
+
+<body>
+    <table width="100%">
+        <thead>
+            <tr>
+                <th colspan="3" width="25%">
+                    <a href="index.html">
+                        <img src="logo.png" height="60px" alt="Logo">
+                    </a>
+                </th>
+                <th colspan="6" width="50%"></th>
+                <th>
+                    <a href="index.html">Home</a>
+                </th>
+                <th>
+                    <a href="product.html">Product</a>
+                </th>
+                <th>
+                    <a href="contact.html">Contact</a>
+                </th>
+            </tr>
+        </thead>
+
+        <tbody>
+            <form action="">
+                <tr>
+                    <td colspan="12">
+                        <fieldset>
+                            <legend>Personal Information</legend>
+
+                            <table>
+                                <tr>
+                                    <td>
+                                        <label for="f_name">First Name</label>
+                                    </td>
+                                    <td>
+                                        <input id="f_name" type="text" placeholder="John" required>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <label for="l_name">Last Name</label>
+                                    </td>
+                                    <td>
+                                        <input id="l_name" type="text" placeholder="Doe">
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <label for="email">Email ID</label>
+                                    </td>
+                                    <td>
+                                        <input id="email" type="email" placeholder="johndoe@gmail.com" required>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <label for="phone">Phone Number</label>
+                                    </td>
+                                    <td>
+                                        <input id="phone" type="tel" placeholder="9876543210" minlength="10"
+                                            maxlength="10" pattern="[0-9]{10}" required>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <label for="dob">Date Of Birth</label>
+                                    </td>
+                                    <td>
+                                        <input id="dob" type="date" required>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <label for="">Gender</label>
+                                    </td>
+                                    <td>
+                                        <input id="male" type="radio" name="gender">
+                                        <label for="male">Male</label>
+
+                                        <input id="female" type="radio" name="gender">
+                                        <label for="female">Female</label>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <label for="address">Address</label>
+                                    </td>
+                                    <td>
+                                        <textarea id="address" cols="21" rows="3"
+                                            placeholder="Enter address" required></textarea>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <label for="city">City</label>
+                                    </td>
+                                    <td>
+                                        <select id="city" required>
+                                            <option>--Select a city--</option>
+                                            <option>Adalaj</option>
+                                            <option>Ahmedabad</option>
+                                            <option>Amreli</option>
+                                            <option>Anjar</option>
+                                            <option>Bhadran</option>
+                                            <option>Bhuj</option>
+                                            <option>Chalamali</option>
+                                            <option>Dhangadhra</option>
+                                            <option>Gandhinagar</option>
+                                            <option>Godhra</option>
+                                            <option>Jamnagar</option>
+                                            <option>Junagadh</option>
+                                            <option>Morbi</option>
+                                            <option>Mumbai</option>
+                                            <option>Pune</option>
+                                            <option>Rajkot</option>
+                                            <option>Surat</option>
+                                            <option>Surendranagar</option>
+                                            <option>Vadodra</option>
+                                            <option>Vasna</option>
+                                        </select>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <label for="zip">ZIP Code</label>
+                                    </td>
+                                    <td>
+                                        <input id="zip" type="number" minlength="6" maxlength="6" placeholder="654321"
+                                            required>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <label for="message">Message</label>
+                                    </td>
+                                    <td>
+                                        <textarea id="message" cols="21" rows="3"
+                                            placeholder="Enter message"></textarea>
+                                    </td>
+                                </tr>
+                            </table>
+                        </fieldset>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="12">
+                        <fieldset>
+                            <legend>Career Information</legend>
+                            <table>
+                                <tr>
+                                    <td>
+                                        <label for="highestEducation">Highest Education</label>
+                                    </td>
+                                    <td>
+                                        <input id="highestEducation" type="text">
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <label for="university">University</label>
+                                    </td>
+                                    <td>
+                                        <input id="university" type="text">
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <label for="workExperience">Work Experience</label>
+                                    </td>
+                                    <td>
+                                        <input id="workExperience" type="text"> years
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <label for="workLocation">Work Location</label>
+                                    </td>
+                                    <td>
+                                        <input type="checkbox" name="" id="india">
+                                        <label for="india">India</label>
+                                        <input type="checkbox" name="" id="usa">
+                                        <label for="usa">USA</label>
+                                        <input type="checkbox" name="" id="hongKong">
+                                        <label for="hongKong">Hong Kong</label>
+                                        <input type="checkbox" name="" id="dubai">
+                                        <label for="dubai">Dubai</label>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <label for="resume">Upload Resume</label>
+                                    </td>
+                                    <td>
+                                        <input type="file" name="resume" id="resume">
+                                    </td>
+                                </tr>
+                            </table>
+                        </fieldset>
+                    </td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td>
+                        <button type="submit">Submit</button>
+                    </td>
+                    <td>
+                        <button type="reset">Reset</button>
+                    </td>
+                    <td></td>
+                </tr>
+            </form>
+        </tbody>
+
+        <tfoot>
+            <tr>
+                <td colspan="12">
+                    <center>
+                        <hr>
+                        This is the footer.
+                    </center>
+                </td>
+            </tr>
+        </tfoot>
+
+    </table>
+</body>
+
+</html>
